@@ -27,7 +27,7 @@
       <td scope="row">{{$estudiante->apellidos}}</td>
       <td scope="row">{{$estudiante->email}}</td>
       <td scope="row">{{$estudiante->telefono}}</td>
-      <td ><a class="btn btn-raised btn-primary btn-sm" href=""><i class="far fa-edit"></i></a>
+      <td ><a class="btn btn-raised btn-primary btn-sm" href="{{route('edit',$estudiante->id)}}"><i class="far fa-edit"></i></a>
       <a class="btn btn-raised btn-danger btn-sm" href=""><i class="far fa-trash-alt""></i></a></td>
      
     </tr>
