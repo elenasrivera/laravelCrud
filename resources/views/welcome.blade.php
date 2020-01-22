@@ -47,6 +47,6 @@
 
   </tbody>
 </table>
-
+{{$estudiantes->links()}}
 
 @endsection
